@@ -9,7 +9,7 @@
 <body>
     <main>
         <header class="main-header">
-            <a class="page-title" href="{{ route('home-page') }}"><h1 class="page-title">Laravel</h1></a>
+            <a class="page-title" href="#"><h1 class="page-title">Laravel</h1></a>
             <div class="button-group">
                 <a href="{{ route('login-page') }}" class="button button-hover button-login">{{ __('header.login') }}</a>
                 <a href="{{ route('register-page') }}" class="button button-hover button-register">{{ __('header.register') }}</a>
